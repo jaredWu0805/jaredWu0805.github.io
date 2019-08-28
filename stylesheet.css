@@ -1,0 +1,62 @@
+.nav-wrapper{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.carousel .carousel-item{
+    width: 300px;
+    top: -100px;
+}
+
+
+.parallax-container {
+    height: 150px;
+}
+
+.parallax img {
+    position:absolute;
+    bottom: 0px;
+}
+  p {
+      color: white;
+
+  }
+
+  body {
+    background-color: rgb(24, 24, 24);
+}
+
+.page-footer, .footer-copyright {
+    background-color: rgb(17, 17, 17);
+}
+
+header {
+    position: relative;
+    min-height: 100px;
+    max-width: 80%;
+    transform-style: inherit;
+    z-index: -1;
+  }
+  
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: block;
+    background: url("2000x.webp") top center;
+    background-size: contain;
+    transform: translateZ(-1px) scale(2.1);
+    min-height: 100%;
+    z-index: -2;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 2rem;
+    background: #fafafa;
+    box-shadow: 0 0 20px #333;
+    top: 20%;
+    left: 50%;
+    transform: translateZ(-1px) scale(2) translate(-25%, -25%);
+  }
